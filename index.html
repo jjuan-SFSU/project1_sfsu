@@ -1,7 +1,104 @@
 <!DOCTYPE html>
-<html>
-	<head
-	
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="../project1_sfsu/resorces/favicon.ico" type="image/x-icon">
+    <title>Welcome to Solvang</title>
+</head>
+<body>
+    <!-- Background Layer -->
+    <div class="background"></div>
 
+    <!-- Foreground Content -->
+    <div class="content">
+        <header>
+            <!-- Logo Section -->
+            <div class="logo">
+                <a href="#"><img src="/web_dev/project1_sfsu/resorces/Logo.jpg" alt="Solvang Logo" /></a>
+            </div>
 
-</html>
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#attractions">Attractions</a></li>
+                    <li><a href="#visit">Plan Your Visit</a></li>
+                    <li><a href="#events">Events</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="action-buttons">
+                <a href="#login" class="button login">Login</a>
+                <a href="#signup" class="button signup">Sign Up</a>
+            </div>
+        </header>
+
+    <main>
+        <section id="about" class="flex-section">
+            <div>
+                <h2 class="main-heading">About Solvang</h2>                
+                <p>Nestled in the heart of California's Santa Ynez Valley, Solvang is a charming village known for its Danish heritage, vibrant architecture, and welcoming atmosphere. Founded by Danish immigrants in 1911, this unique town captures the spirit of Denmark with its traditional windmills, half-timbered houses, and authentic bakeries. Strolling through the streets of Solvang, visitors encounter delightful boutiques, art galleries, and restaurants offering Danish pastries, chocolates, and delicious cuisine. The town also hosts events throughout the year, such as the Danish Days Festival, which celebrates Solvang's cultural roots with folk dancing, parades, and traditional Danish fare. Beyond its distinctive Scandinavian appeal, Solvang is surrounded by stunning vineyards, rolling hills, and beautiful wineries that offer wine-tasting tours. Whether you're exploring historic landmarks like the Old Mission Santa Inés, browsing unique shops, or enjoying the natural beauty of the area, Solvang offers a memorable experience that blends culture, history, and scenic charm.</p>
+            </div>
+        </section>
+
+        <section id="attractions">
+            <div class="attraction-container">
+                <div class="attraction">
+                    <h3>Windmill Park</h3>
+                    <img src="../project1_sfsu/resorces/Windmill.jpg" alt="Windmill Park" />
+                    <p>Enjoy a relaxing day at Windmill Park, famous for its picturesque windmills and lush gardens.</p>
+                </div>
+                <div class="attraction">
+                    <h3>Solvang Vintage Motorcycle Museum</h3>
+                    <img src="../project1_sfsu/resorces/Solvang Vintage Motorcycle Museum.jpg" alt="Solvang Vintage Motorcycle Museum" />
+                    <p>Explore an extensive collection of vintage motorcycles, showcasing the history of these remarkable machines.</p>
+                </div>
+                <div class="attraction">
+                    <h3>Elverhøj Museum of History & Art</h3>
+                    <img src="../project1_sfsu/resorces/Museum.jpg" alt="Elverhøj Museum" />
+                    <p>Discover the rich cultural history of Solvang through art exhibits and local artifacts.</p>
+                </div>
+                <div class="attraction">
+                    <h3>Mission Santa Inés</h3>
+                    <img src="../project1_sfsu/resorces/Mission.jpg" alt="Mission Santa Inés" />
+                    <p>Visit this historic mission, known for its stunning architecture and beautiful gardens.</p>
+                </div>
+                <div class="attraction">
+                    <h3>Solvang Farmer's Market</h3>
+                    <img src="../project1_sfsu/resorces/farmers.jpg" alt="Solvang Farmer's Market" />
+                    <p>Experience the vibrant atmosphere of the local farmers' market, offering fresh produce and artisan goods.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="visit" class="flex-section">
+            <div>
+                <h2 class="main-heading">Plan Your Visit</h2>                
+                <p>Planning a visit to Solvang is an invitation to experience the charm and beauty of California’s Danish-inspired village. Start your journey by exploring the town’s quaint streets, where Danish architecture, windmills, and cozy cafes bring European charm to life. Begin your day with a visit to Solvang’s iconic bakeries for fresh pastries, then discover local boutiques and galleries showcasing unique Scandinavian crafts and souvenirs. For outdoor enthusiasts, the surrounding Santa Ynez Valley offers hiking trails, scenic wine country, and picturesque landscapes perfect for a leisurely drive or bike tour. Consider staying overnight to fully embrace the town’s magic, as the evenings are beautifully calm and provide a chance to enjoy fine dining under the stars. Before you go, make time to explore historic sites like the Old Mission Santa Inés and catch a local event if possible. Solvang is a delightful escape for families, couples, and anyone seeking a memorable adventure.</p>
+            </div>
+        </section>
+   
+        <div class="contact-form">
+            <h3>Contact Us</h3>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+            
+            <label for="message">Message</label>
+            <textarea id="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; By Joshua and Gurtej, 2024</p>
+    </footer>
+</body>
+</html> 
